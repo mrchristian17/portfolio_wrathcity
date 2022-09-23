@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
+import About from '../components/About'
 
 const Home: NextPage = () => {
   return (
@@ -14,10 +15,13 @@ const Home: NextPage = () => {
       {/* Header */}
       <Header />
       {/* Hero */}
-      <section id="intro" className="snap-center">
+      <section id="intro" className="snap-start">
         <Intro />
       </section>
       {/* About */}
+      <section id="about" className="snap-center">
+        <About />
+      </section>
       {/* Experience */}
       {/* Skills */}
       {/* Projects */}
