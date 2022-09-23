@@ -40,6 +40,7 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
       </motion.div>
+      {/* Email Icon */}
       <motion.div
         initial={{
           x: 500,
